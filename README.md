@@ -1,6 +1,10 @@
 # Javascript Beginners
 
-Javascript is the language of the web
+Javascript is the language of the web. JavaScript is the world's most popular programming language.
+
+### Tips for beginners
+
+1. Do not rush through the concepts
 
 ## Installation
 
