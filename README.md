@@ -4,7 +4,8 @@ Javascript is the language of the web. JavaScript is the world's most popular pr
 
 ### Tips for beginners
 
-1. Do not rush through the concepts
+1. Do not rush through the concepts.
+2. Start implementing as soon as you can.
 
 ## Installation
 
