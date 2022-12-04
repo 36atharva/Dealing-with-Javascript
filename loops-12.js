@@ -2,9 +2,8 @@
 
 // Sample loop (print 1 to 10):
 
-for(let i=1; i<=10; i++)
-{
-    console.log(i + " "); // logs 1 to 10.
+for (let i = 1; i <= 10; i++) {
+  console.log(i + " "); // logs 1 to 10.
 }
 
 /* Why do we need Loops?
@@ -17,9 +16,21 @@ for(let i=1; i<=10; i++)
 
 // 1. for loop:
 
-for(let i =1; i<= 10; i++)
-{
-    console.log(i); // logs number 1 to 10.
+for (let i = 1; i <= 10; i++) {
+  console.log(i); // logs number 1 to 10.
 }
 
-// 2. 
+// 2. forin loop: loops through the properties of the specified object.
+
+const obj1 = {
+  firstName: "Atharva",
+  lastName: "Hinge",
+  age: 25,
+};
+
+let info = "";
+
+for (let a in obj1) {
+  text += obj1[a];
+}
+console.log(text);
