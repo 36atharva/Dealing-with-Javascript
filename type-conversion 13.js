@@ -51,3 +51,23 @@ let x2 = "Atharva";
 let y2 = parseInt(x1);
 
 console.log(typeof x1, typeof y1); //  logs string and number again :).
+
+/* Let's also talk about the operator precedence in Javascript:
+
+Different operators have different precedences and javascript doesn't treat each operator as the same!
+So what exactly is the curation?
+
+1.() = this has the most important precedence in JS
+2. . = the dot operator has the 2nd most
+3. []
+4. ?. = if else bracing
+5. new = with arguments and then without arguments!
+
+In case of arithmetic operators -
+
+1. * -> multiplication
+2. / -> division
+3. + -> addition
+4. - -> subtraction
+
+*/
