@@ -26,3 +26,14 @@ function myFunction() {
 }
 
 console.log(myAge); // it will log an error, here the myAge variable is scoped inside the myFunction function, it can't be accessed outside it.
+
+// Global scope: these variables can be used anywhere in the program, not just inside any function or block.
+
+var a = 5;
+var b = 10;
+
+function myFunction1(a, b) {
+  return a + b;
+}
+
+console.log(myFunction1(a, b)); // logs 15
