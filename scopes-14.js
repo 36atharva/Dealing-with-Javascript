@@ -37,3 +37,36 @@ function myFunction1(a, b) {
 }
 
 console.log(myFunction1(a, b)); // logs 15
+
+/* This was all about the variables scope in JavaScript, we will learn many things about the scoping patterns and how to use it to our advantage, further in the upcoming code snippets. */
+
+/* What is hoisting in JS?
+
+-> in javascript, we can use a variable even before it has been used o.o, this is the speciality of Javascript.
+-> this is only possible in the case of 'var' keyword, when we try to use a variable which has not been declared yet in the case of 'let' and 'const', we get a ReferenceError.
+Example is given below:
+
+*/
+
+a = 1;
+b = 2;
+
+console.log(a + b); // logs 2
+
+var a;
+var b;
+
+// But in the case of 'let' and 'const':
+
+x = 10;
+let x; // run this in your ide or chrome devtools, you will get a referenceerror!
+
+/* Best practices?
+
+I will suggest you to declare any variables that you are going to use in your code, declare them at the top!
+This also improves readability of your code and helps to avoid errors when running.
+
+In the next snippet, we will be discussing about this keyword, which is one of the most important concepts in JavaScript.
+Till then, keep practicing!
+
+*/
