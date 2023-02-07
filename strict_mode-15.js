@@ -34,4 +34,21 @@ function x(a) {
   return a + 1;
 }
 
-console.log(x(a)); // throws an error.
+console.log(x(a)); // throws an error because we can't use an undeclared variable.
+
+// A short challenge, define a function that returns addition of two numbers a and b, declare the variables, but try to delete the function (in strict mode itself).
+
+// Solution:
+
+let a = 5;
+let b = 3;
+
+function addNum(a, b) {
+  return a + b;
+}
+
+// console.log(addNum(a,b));
+
+delete addNum(); // will not be able to delete the function as we are running in strict mode!
+
+// (Remember to comment out the above code)
