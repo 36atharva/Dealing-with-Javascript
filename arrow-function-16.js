@@ -23,7 +23,7 @@ let additionFunc(a,b){
 
 // Example 2:
 
-// Traditional anonymous function
+// regular function
 function (a, b) {
   return a + b;
 });
@@ -34,13 +34,33 @@ function (a, b) {
 const a = 4;
 const b = 2;
 
-// Traditional anonymous function (no parameters)
+// Function with no parameters
 (function () {
   return a + b;
 });
 
-// Arrow function (no arguments)
+// Arrow function with no arguments
 () => a + b;
 
 // This is what we can refactor normal functions to!
 
+/* Let's discuss what is JSON, and why do we use it
+
+-> JSON stands for Javascript Object Notation
+-> It is mostly used for storing and transferring data from servers to web pages.
+-> JSON is language-independent.
+-> JSON Syntax is the same as Javascript Object syntax.
+
+*/
+
+// Syntax:
+
+{
+"students":[
+  {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"Alex", "lastName":"Jones"},
+  {"firstName":"Kyle", "lastName":"Jim"}
+]
+}
+
+// Data is stored in key-value pairs!
