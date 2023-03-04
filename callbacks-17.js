@@ -7,6 +7,24 @@ Let's define 2 functions and see which one logs to the console:
 
 */
 
-function first(){
-   
+let a;
+let b;
+
+function display(a) {
+  b = a;
+  console.log("hello");
 }
+
+function first() {
+  display(5);
+}
+
+function second() {
+  display(10);
+}
+
+first();
+second();
+display();
+
+// This logs 5 and then 10, what we understand from this is that javascript functions are executed by the sequence we call them, here it does not matter if we define the second function before first or vice versa
