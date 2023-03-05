@@ -35,7 +35,7 @@ const a = 4;
 const b = 2;
 
 // Function with no parameters
-(function () {
+function () {
   return a + b;
 });
 
