@@ -4,7 +4,7 @@
 
 Javascript is the language of the web. JavaScript is the world's most popular programming language. This open source project was started as an accident, originally made for my threads and code snippets, but I with some other contributors are looking forward to make this project huge, especially for beginners in Javascript.
 
-We will be making continuos improvements to the repository, there will be different modules covering various aspects of Javascript and with the mission to teach you in a simple and easy way!
+We will be making continuous improvements to the repository, there will be different modules covering various aspects of Javascript and with the mission to teach you in a simple and easy way!
 
 Many changes and amazing updates coming soon, stay tuned :)
 
